@@ -61,5 +61,6 @@ public class MainControllter {
     public static void newMsg(String msg){
         String[] tops = msg.split("]");
         globalChat.getItems().add(tops[1]);
+        globalChat.refresh();
     }
 }
