@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mediadorchat.controllers.loginCOntroler">
+   <children>
+      <Button fx:id="loginButton" layoutX="275.0" layoutY="232.0" mnemonicParsing="false" onAction="#logIn" text="Log In" />
+      <TextField fx:id="nameInput" layoutX="226.0" layoutY="125.0" />
+      <Text layoutX="169.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <Text layoutX="160.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <PasswordField fx:id="passInput" layoutX="226.0" layoutY="163.0" />
+      <Label fx:id="errorText" layoutX="285.0" layoutY="236.0" />
+      <Button fx:id="register" layoutX="270.0" layoutY="303.0" mnemonicParsing="false" onAction="#register" text="Register" />
+   </children>
+</Pane>
