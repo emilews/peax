@@ -1,8 +1,11 @@
 package mediadorchat.controllers;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import mediadorchat.Cliente;
 
@@ -13,7 +16,7 @@ import java.util.TimerTask;
 public class MainControllter {
     static Cliente cliente = null;
     @FXML
-    public static ListView<String> globalChat;
+    public static TextArea globalChat;
     @FXML
     public static ListView<String> topicsList;
     @FXML
@@ -26,6 +29,7 @@ public class MainControllter {
     public void enviarTexto(){
         if(!textoEnviar.getText().trim().isEmpty()){
             cliente.EnviarDatos("enviar -m '"+textoEnviar.getText()+"' -t 'Broadcast'");
+            textoEnviar.clear();
         }
     }
 
@@ -60,7 +64,6 @@ public class MainControllter {
 
     public static void newMsg(String msg){
         String[] tops = msg.split("]");
-        globalChat.getItems().add(tops[1]);
-        globalChat.refresh();
+        globalChat.setText(globalChat.getText()+"\n"+tops[1]);
     }
 }
