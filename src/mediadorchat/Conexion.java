@@ -66,7 +66,8 @@ public class Conexion extends Thread {
                         args.add(regexMatcher.group());
                     }
                 }
-                if (args.get(0).equals("enviar")) {
+                System.out.println(args);
+                if (args.get(1).equals("enviar")) {
                     CommandLine commandLine = comandos.parse(args.toArray(new String[args.size()]));
                     if (commandLine != null) {
                         if (commandLine.hasOption("m")) {

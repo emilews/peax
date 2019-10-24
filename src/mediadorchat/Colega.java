@@ -52,6 +52,7 @@ public abstract class Colega {
         try {
             buffSalida.writeUTF("<" + nombre + "> " + msg);
             buffSalida.flush();
+            System.out.println(msg);
         } catch (Exception e) {
         }
         ;

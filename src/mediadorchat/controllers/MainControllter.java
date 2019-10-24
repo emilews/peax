@@ -16,7 +16,7 @@ import java.util.TimerTask;
 public class MainControllter {
     static Cliente cliente = null;
     @FXML
-    public static TextArea globalChat;
+    public static TextField globalChat;
     @FXML
     public static ListView<String> topicsList;
     @FXML
@@ -47,7 +47,6 @@ public class MainControllter {
             }
         });
         hilo.start();
-
     }
     static class SayHello extends TimerTask {
         public void run() {
@@ -63,7 +62,6 @@ public class MainControllter {
 
 
     public static void newMsg(String msg){
-        String[] tops = msg.split("]");
-        globalChat.setText(globalChat.getText()+"\n"+tops[1]);
+        globalChat.setText();
     }
 }
