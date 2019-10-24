@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15136d1d-0626-4f93-8fa3-59122568f2d4" name="Default Changelist" comment="" />
+    <list default="true" id="15136d1d-0626-4f93-8fa3-59122568f2d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Colega$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Colega$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Colega.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Colega.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Conexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/MainCliente$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/MainCliente$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/MainCliente$ChatDirecto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/MainCliente$ChatDirecto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/MainCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/MainCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/MainControllter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/MainControllter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/MainControllter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/MainControllter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/loginCOntroler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/loginCOntroler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediadorchat/Colega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/Colega.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediadorchat/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediadorchat/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/Mediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediadorchat/controllers/MainControllter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/controllers/MainControllter.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +32,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SO5J3V2hvIxQWH9YSnbLn9xvnK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/SceneBuilder/SceneBuilder.exe" />
@@ -102,11 +123,22 @@
       <workItem from="1571421727043" duration="7019000" />
       <workItem from="1571430714327" duration="8364000" />
       <workItem from="1571875167666" duration="4312000" />
-      <workItem from="1571931505384" duration="13245000" />
+      <workItem from="1571931505384" duration="15499000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

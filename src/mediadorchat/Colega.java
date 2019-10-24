@@ -35,6 +35,9 @@ public abstract class Colega {
                         if(mesgIn.contains("topics:>")){
                             MainControllter.updateTopicList(mesgIn);
                         }
+                        if(mesgIn.contains("[Broadcast]")){
+                            MainControllter.newMsg(mesgIn);
+                        }
                         System.out.println(mesgIn);
                     }
                 } catch (Exception e) {

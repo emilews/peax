@@ -47,7 +47,6 @@ public abstract class Mediator {
                             buffSalida.writeUTF("Aceptado");
                             buffSalida.flush();
                         }else {
-                            System.out.println("No se pudo loggear a " + username + ", contraseña invalida o usuario no existe.");
                             socket.close();
                         }
                     }

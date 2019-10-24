@@ -13,7 +13,7 @@ import java.util.TimerTask;
 public class MainControllter {
     static Cliente cliente = null;
     @FXML
-    public ListView<String> globalChat;
+    public static ListView<String> globalChat;
     @FXML
     public static ListView<String> topicsList;
     @FXML
@@ -43,8 +43,7 @@ public class MainControllter {
             }
         });
         hilo.start();
-        Timer timer = new Timer();
-        timer.schedule(new SayHello(), 0, 5000);
+
     }
     static class SayHello extends TimerTask {
         public void run() {
@@ -53,6 +52,14 @@ public class MainControllter {
     }
 
     public static void setCliente(Cliente c){
+        Timer timer = new Timer();
+        timer.schedule(new SayHello(), 0, 5000);
         cliente = c;
+    }
+
+
+    public static void newMsg(String msg){
+        String[] tops = msg.split("]");
+        globalChat.getItems().add(tops[1]);
     }
 }

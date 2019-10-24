@@ -86,9 +86,7 @@ public class Conexion extends Thread {
                                 }
                             } else {
                                 for (int i = 0; i < clientesConectados.size(); i++) {
-                                    if (i != clientesConectados.indexOf(this)) {
-                                        clientesConectados.get(i).EnviarMensaje("[Broadcast]<"+this.username+"> " + messageBody);
-                                    }
+                                    clientesConectados.get(i).EnviarMensaje("[Broadcast]<"+this.username+"> " + messageBody);
                                 }
                             }
                         }
