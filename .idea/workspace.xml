@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="15136d1d-0626-4f93-8fa3-59122568f2d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Colega$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Colega$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Colega.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Colega.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/Conexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/MainControllter$SayHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/MainControllter$SayHello.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/MainControllter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediadorChatB/mediadorchat/controllers/MainControllter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediadorchat/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mediadorchat/Colega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/Colega.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mediadorchat/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/Conexion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mediadorchat/controllers/MainControllter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/controllers/MainControllter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mediadorchat/views/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediadorchat/views/Main.fxml" afterDir="false" />
     </list>
@@ -16,6 +17,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,7 +131,7 @@
       <workItem from="1571421727043" duration="7019000" />
       <workItem from="1571430714327" duration="8364000" />
       <workItem from="1571875167666" duration="4312000" />
-      <workItem from="1571931505384" duration="18366000" />
+      <workItem from="1571931505384" duration="22250000" />
     </task>
     <servers />
   </component>

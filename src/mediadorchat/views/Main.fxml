@@ -13,6 +13,6 @@
       <Label layoutX="373.0" layoutY="39.0" text="Topics Actuales" />
       <Label layoutX="26.0" layoutY="39.0" text="Chat Global" />
       <TextField fx:id="textoEnviar" layoutX="26.0" layoutY="339.0" prefHeight="25.0" prefWidth="320.0" />
-      <TextField fx:id="globalChat" layoutX="26.0" layoutY="58.0" prefHeight="267.0" prefWidth="320.0" />
+      <TextField fx:id="globalChat" editable="false" layoutX="26.0" layoutY="58.0" prefHeight="267.0" prefWidth="320.0" />
    </children>
 </Pane>

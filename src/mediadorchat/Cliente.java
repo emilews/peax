@@ -62,7 +62,7 @@ public class Cliente extends Colega {
                         } catch (IOException ex) {
                             ex.printStackTrace();
                         }
-                        RecibirDatos();
+                       // RecibirDatos();
                         EscribirDatos();
                     } else {
                         try {
@@ -71,6 +71,7 @@ public class Cliente extends Colega {
                             ex.printStackTrace();
                         }
                     }
+
                 }
             });
             hilo.start();
@@ -83,6 +84,7 @@ public class Cliente extends Colega {
         Cliente cliente = new Cliente(n, "localhost", 9000, pass);
         cliente.init();
         MainControllter.setCliente(cliente);
+       // cliente.RecibirDatos();
     }
 
 }

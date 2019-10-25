@@ -3,12 +3,15 @@ package mediadorchat.controllers;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import mediadorchat.Cliente;
 
+import java.net.URL;
+import java.util.ResourceBundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -48,9 +51,11 @@ public class MainControllter {
         });
         hilo.start();
     }
+
+
     static class SayHello extends TimerTask {
         public void run() {
-            cliente.EnviarDatos("topics -l");
+            //cliente.EnviarDatos("topics -l");
         }
     }
 
@@ -60,8 +65,11 @@ public class MainControllter {
         cliente = c;
     }
 
-
+    @FXML
     public static void newMsg(String msg){
-        globalChat.setText();
+        System.out.println("poniendo texto");
+        globalChat.setText(msg);
+
     }
+
 }

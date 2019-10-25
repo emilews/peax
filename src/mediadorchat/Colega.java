@@ -5,6 +5,7 @@
  */
 package mediadorchat;
 
+import com.sun.tools.javac.Main;
 import mediadorchat.controllers.MainControllter;
 
 import java.io.DataInputStream;
@@ -14,7 +15,7 @@ import java.net.Socket;
 /**
  * @author pedro
  */
-public abstract class Colega {
+public abstract class Colega extends MainControllter {
 
     public Socket cliente;
     public DataOutputStream buffSalida;
@@ -25,17 +26,19 @@ public abstract class Colega {
     public int puerto;
     public String pass;
 
-    public void RecibirDatos() {
+    public void RecibirDatos(String mesgIn) {
         Thread hilo = new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
                     while (true) {
-                        String mesgIn = buffEntrada.readUTF();
+                        //String mesgIn = buffEntrada.readUTF();
+                        //System.out.println(mesgIn+"aqui");
                         if(mesgIn.contains("topics:>")){
                             MainControllter.updateTopicList(mesgIn);
                         }
-                        if(mesgIn.contains("[Broadcast]")){
+                        if(mesgIn.contains("Broadcast")){
+                            System.out.println("texto");
                             MainControllter.newMsg(mesgIn);
                         }
                         System.out.println(mesgIn);
@@ -53,6 +56,7 @@ public abstract class Colega {
             buffSalida.writeUTF("<" + nombre + "> " + msg);
             buffSalida.flush();
             System.out.println(msg);
+            RecibirDatos(msg);
         } catch (Exception e) {
         }
         ;
